@@ -1,0 +1,131 @@
+body{
+    background-color: #e7fafc;
+    padding: 20px;
+}
+h1{
+    color: #222;
+    text-align: center;
+    font-size:50px ;
+
+}
+h1:hover{
+    transform: scale(1.5);
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    margin: 0 18px;
+
+    padding:8px;
+    font-weight: bold;
+    color: rgb(21, 140, 187);
+    border-radius: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+nav a:hover{
+    background-color:  rgb(21, 140, 187);
+    color: white;
+}
+hr{
+    margin: 30px auto ;
+    width: 800px;
+    border-top: 2px solid;
+}
+section{
+    background: white;
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 4px 12px  rgb(112, 195, 216);
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%;
+    bottom: 3px solid #e7fafc;
+}
+figcaption{
+    font-size: 30px;
+}
+section h2{
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 8px;
+}
+article{
+    background-color: #e7fafc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgb(57, 181, 238);
+    border-left: 4px solid  rgb(113, 168, 212);
+    margin-bottom: 10px;
+    transition: transform 0.45s;
+}
+article:hover{
+    transform: translateX(-10px);
+}
+h3{
+    font-size: 35px;
+}
+details{
+    margin-top: 5px;
+}
+summary{ 
+    font-size: 25px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+li{
+    background-color:rgb(122, 205, 243);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 20px;
+    
+}
+ol{
+    list-style-type: none;
+}
+li:hover{
+    background-color: rgb(110, 169, 209);
+}
+ul{
+    list-style-type: none;
+}
+ol{
+    list-style-type: none;
+}
+form{
+    font-size: 15px;
+}
+input,textarea{
+    width:100%;
+    padding:5px;
+}
+button{
+    margin-left: 25px;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    font-weight: solid;
+    border-radius: 10px;
+}
+form{
+    text-align: center;
+}
+
+button:hover{
+    background-color: skyblue;
+    color: aliceblue;
+}
